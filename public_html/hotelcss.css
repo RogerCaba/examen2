@@ -1,55 +1,54 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Jul 21, 2017, 6:34:52 PM
-    Author     : 00140206
-*/
-
-#navegador ul{
- list-style-type: none;
- text-align: center; 
-     
-}
-
-#navegador li{
-    display: inline;
+#cabecera{
+    font-family: Broadway;
+    font-size: 50px;
     text-align: center;
-    margin: 0 10px 0 0;
+    color: brown;
+}
+#menu ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 25px;
+    background: chartreuse;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-#navegador li a {
-    padding: 2px 7px 2px 7px;
-    color: #666;
-    background-color: #ff3333;
-    border: 1px solid #ccc;
-    text-decoration: none;
-    
+#cabecera span{
+    color: appworkspace;
 }
-
-#navegador li a :hover{
-    background-color: aqua; 
-    color: ffffff;
-    
-}
-
-html, body {
-    height: 100%;  /* hacer que la pagina llene toda la altura */
-    
-}
-
-* {
-    margin:  0;
-    
-}
-
-#contenidoprincipal{
-    height: 100%;
-}
-
-#piedepagina {
-    height: -50px;
-    margin-top: -50px;
-}
+#cuerpo img{
+    width: 800px;
+    height: 400px;
+    display: block;
+    margin:auto;
+   }
+   
+   #cuerpo p{
+       font-family: Monotype Corsiva;
+       font-size: 24px;
+       text-align: center;
+   }
+   
+   #pie{
+       background:  chartreuse;
+       text-align: center;
+   }
+   #pie img{
+       width: 30px;
+   }
+   
+   a:link, a:visited {
+       font-size: 25px;
+       background: chartreuse;
+       text-decoration: none;
+       
+   }
+   
+   a:hover {
+       background: blue;
+       color: chartreuse;
+   }
+   
+   #menu ul li:hover{
+       background: red;
+   }
